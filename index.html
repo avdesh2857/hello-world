@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="roobot" content="INDEX,FOLLOW">
+  <title>SWIGGY FOOD DELIVERY</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- style navigation in css -->
+  <style>
+    body {
+      padding: 10px 0 0 50px;
+    }
+
+    h1 {
+      font-family: arial;
+    }
+
+    #menu {
+      margin-top: 15px;
+    }
+
+    #menu>ul {
+      background: chocolate;
+    }
+
+    #menu ul {
+      list-style: none;
+      position: relative;
+      float: left;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    #menu ul a {
+      display: block;
+      color: yellow;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 32px;
+      padding: 0 15px;
+      font-family: Helvetica, Arial, sans-serif;
+      width: 110px;
+      text-align: center;
+    }
+
+    #menu ul li {
+      position: relative;
+      float: left;
+      margin: 0;
+      padding: 0
+    }
+
+    #menu ul li.active {
+      background: chocolate;
+    }
+
+    #menu ul li:hover {
+      /*background:#f6f6f6*/
+      background: #23d16c;
+    }
+
+    #menu ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #10ec6c;
+      padding: 0
+    }
+
+    #menu ul ul li {
+      float: none;
+      width: 200px;
+      border-left: 3px solid greenyellow;
+    }
+
+    #menu ul ul li:hover {
+      border-left: 3px solid chocolate;
+    }
+
+    #menu ul ul a {
+      line-height: 120%;
+      padding: 10px 15px
+    }
+
+    #menu ul ul ul {
+      top: -4px;
+      left: 100%
+    }
+
+    #menu ul li:hover>ul {
+      display: block
+    }
+  </style>
+  <!-- Restauent name with there in css files -->
+   <style>
+  body{
+    padding:10px 0 0 50px;
+  }
+  #menu2{
+    margin-left:5px;
+  }
+    #menu2 > ul{
+background:chocolate;
+
+    }
+    #menu2 ul{
+      list-style: none;
+      position: relative;
+      float:none;
+      margin:0;
+      padding:0;
+    }
+    #menu2 ul a{
+display: block;
+color: yellow;
+text-decoration: none;
+font-weight: 700px;
+font-size: 15px;
+line-height: 32px;
+padding: 0 15px;
+font-family: Arial, Helvetica, sans-serif;
+    }
+#menu2 ul li{
+  position: relative;
+  float: none;
+  margin:0;
+  padding:0;
+}
+#menu2 ul li.active{
+  background:#27ae60;
+}
+#menu2 ul li:hover{
+  background: #2ecc71;
+}
+#menu2 ul ul{
+  display: none;
+  position:relative;
+ float:none;
+  left:0;
+  background: #27ae60
+  
+
+}
+#menu2 ul ul li{
+  float:none;
+  width:200px;
+  height: 38px;
+  border-left: 3px solid #27ae60;
+
+}
+#menu2 ul ul li:hover{
+  border-left: 3px solid #f1950a;
+
+}
+#menu2 ul ul a{
+  line-height: 100%;
+  padding:10px 15px 
+}
+#menu2 ul ul ul {
+  left: 100%
+}
+#menu2 ul{
+  float: left;
+}
+#menu2 ul li:hover > ul{
+  display: block;
+}
+
+   </style>  
+
+  <!-- favicin link  -->
+  <link rel="icon" href="swiggy.png" type="image/png" sizes="32x32">
+
+</head>
+<!-- body style with css  -->
+
+<body style="padding-left: 15px;
+padding-right: 15px;
+margin-left: 8px;
+margin-right: 8px;
+padding-top: 1px;
+margin-bottom: 0px;
+padding-bottom: 1px;
+border-top-width: 0px;
+border-top-style: solid;">
+
+
+  <!-- heading tag with color and logo using  -->
+
+  <header class="top">
+    <h1>
+      <center style="color: orange;"> <img src="swiggy.png" width="45" height="45" alt="">SWIGGY</center>
+    </h1>
+  </header>
+  <!-- center tag with color  -->
+  <h4>
+
+    <center style="background-color: aqua; padding-bottom:3px; padding-top:3px;">''Swiggy karo phir jo chahe karo''
+    </center>
+
+  </h4>
+  <!-- navgation bar with css  -->
+  <nav id="menu">
+    <ul>
+      <li class="active"><a href="#">HOME</a></li>
+      <li><a href="#">SERVICE</a>
+        <ul>
+          <li><a href="#">FOOD DELIVERY</a></li>
+          <li><a href="#">PANTARY ITEM</a></li>
+          <li><a href="#">MEDICINE ITEM</a></li>
+        </ul>
+      </li>
+      <li><a href="#">CONTACT</a>
+        
+        <ul>
+          <li><a href="#">+917738782191</a>
+          <li><a href="#">avdesh7863@gmail.com</a>
+        </ul>
+      </li>
+      <li><a href="#">ENQUIRY</a>
+        <ul>
+          <li><a href="#">FORM</a></li>
+        </ul>
+      <li><a href="#">ABOUT</a>
+        <ul>
+          <li><a href="#">Swiggy is most popular.</a></li>
+          <li><a href="#">CEO-"AVDESH"</a></li>
+        </ul>
+      <li><a href="https://web.whatsapp.com">CHAT BOOT</a></li>
+    </ul>
+  </nav>
+
+  <!-- search bar and search tag with css -->
+  <div class="search-container">
+    <form class="example" action="action_page.php">
+      <input type="text" placeholder="search..." value=""
+        style="margin-left:134px; margin-top:6px; border-color: chocolate; color:purple;">
+      <button type="submit" class="search button" style="color:yellow; background-color:chocolate"><i
+          class="fa fa-search"></i></button>
+    </form>
+  </div>
+  <!-- navigation tag new use  -->
+  <!-- <!-- <main> -->
+  <u>
+    <h3 style="border-bottom-width: 0px;
+                    border-bottom-style: solid;
+                    margin-bottom: 3.61px;">Restaurent Name</h3>
+  </u>
+
+  <nav id="menu2"style="text-align:center;">
+    <ul>
+      <li><a href="#">JOHN'S CHINESE</a>
+      
+      <ul>
+        <li><a href="#">Veg Main </a>
+        <ul>
+          <li><a href="">Rice plate : 30 Rs</a></li>
+          <li><a href="">Puri bhaji : 50 Rs</a></li>
+          <li><a href="">Jeera Rice : 30 Rs</a></li>
+          </ul>
+        </ul>
+     
+      
+      <li><a href="#">WOK EXPRESS</a>
+      <ul>
+        <li><a href="#">Fried Rice :88 RS</a></li>
+        <li><a href="#">Noodless :108 RS</a></li>
+        <li><a href="#">chicken fried Rice :135 RS</a></li>
+        <li><a href="#">Chicken soup : 75 Rs</a></li>
+      </ul></li>
+      <li><a href="#">DOMINO'S PIZZA</a>
+      <ul>
+        <li><a href="#">Non-Veg</a>
+
+        <ul>
+          <li><a href="">Chicken pizza:358 Rs</a></li>
+        </ul>
+        <li><a href="#">Veg</a>
+        <ul>
+          <li><a href="#">Farm's pizza</a></li>
+        </ul>
+      </ul>
+      <li><a href="#">VAIBHAV CHINESE</a>
+      <ul>
+        <li><a href="#">Chicken Rice :55 Rs</a></li>
+        <li><a href="#">Triple Rice :125 Rs</a></li>
+        <li><a href="#">Noodles Rice :295 Rs</a></li>
+
+      </ul>
+      <li><a href="#">MACDONALD</a>
+      <ul>
+        <li><a href="#">CLOSED!</a></li>
+      </ul>
+      <li><a href="#">BALAJI CHINESE</a>
+      <ul>
+        <li><a href="#">CLOSED!</a></li>
+      </ul>
+    </ul>
+  </nav>
+  <br><br><br>
+  <!-- write something  -->
+  <div style="text-align:start;">
+    <h4>SWIGGY IS MOST POPULAR DELIVERY APP</h4>
+    <p>swiggy is most popular app in,india he was delivery food in take a Restaurent, and deliver to customer by
+      using delivery partner through he success deliver of on</p>
+  </div>
+
+
+
+  </h4>
+  </section>
+  <article>
+
+  </article>
+  <aside>
+
+  </aside>
+  </main>
+
+</body>
+
+</html>

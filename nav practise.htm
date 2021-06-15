@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+      padding: 10px 0 0 50px;
+    }
+    h1{
+      font-family: arial;
+    }
+    #menu{
+      margin-top:15px;
+    }
+    #menu > ul{
+      background: #2c3e50;
+    }
+    #menu ul
+    {
+      list-style:none;
+      position:relative;
+      float:left;
+      margin:0;
+      padding:0;
+    }
+
+    #menu ul a
+    {
+      display:block;
+      color:#fff;
+      text-decoration:none;
+      font-weight:700;
+      font-size:15px;
+      line-height:32px;
+      padding:0 15px;
+      font-family:Helvetica,Arial,sans-serif;
+    }
+
+    #menu ul li
+    {
+      position:relative;
+      float:left;
+      margin:0;
+      padding:0
+    }
+
+    #menu ul li.active
+    {
+      background:#27ae60
+    }
+
+    #menu ul li:hover
+    {
+      /*background:#f6f6f6*/
+      background: #2ecc71;
+    }
+
+    #menu ul ul
+    {
+      display:none;
+      position:absolute;
+      top:100%;
+      left:0;
+      background:#27ae60;
+      padding:0
+    }
+
+    #menu ul ul li
+    {
+      float:none;
+      width:200px;
+      border-left: 3px solid #27ae60;
+    }
+    #menu ul ul li:hover{
+      border-left: 3px solid #2c3e50;
+    }
+
+    #menu ul ul a
+    {
+      line-height:120%;
+      padding:10px 15px
+    }
+
+    #menu ul ul ul
+    {
+      top:-4px;
+      left:100%
+    }
+
+    #menu ul li:hover > ul
+    {
+      display:block
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Pure CSS Drop Down Menu</h1>
+  <nav id="menu">
+   
+      <ul style="margin-left: 0x;">
+        <li><a href="#">JOHN'S CHINESE</a>
+        <ul>
+          <li><a href="#"style="left">Veg Main </a>
+        <ul>
+            <li><a href="">Rice plate : 30 Rs</a></li>
+            <li><a href="">Puri bhaji : 50 Rs</a></li>
+            <li><a href="">Jeera Rice : 30 Rs</a></li>
+            </ul>
+        </li>
+        </ul>
+        <li><a href="#">WOK EXPRESS</a>
+        <ul>
+          <li><a href="#">Fried Rice :88 RS</a></li>
+          <li><a href="#">Noodless :108 RS</a></li>
+          <li><a href="#">chicken fried Rice :135 RS</a></li>
+          <li><a href="#">Chicken soup : 75 Rs</a></li>
+        </ul></li>
+        <li><a href="#">DOMINO'S PIZZA</a>
+        <ul>
+          <li><a href="#">Non-Veg</a>
+  
+          <ul>
+            <li><a href="">Chicken pizza:358 Rs</a></li>
+          </ul>
+          <li><a href="#">Veg</a>
+          <ul>
+            <li><a href="#">Farm's pizza</a></li>
+          </ul>
+        </ul>
+        <li><a href="#">VAIBHAV CHINESE</a>
+        <ul>
+          <li><a href="#">Chicken Rice :55 Rs</a></li>
+          <li><a href="#">Triple Rice :125 Rs</a></li>
+          <li><a href="#">Noodles Rice :295 Rs</a></li>
+  
+        </ul>
+        <li><a href="#">MACDONALD</a>
+        <ul>
+          <li><a href="#">CLOSED!</a></li>
+        </ul>
+        <li><a href="#">BALAJI CHINESE</a>
+        <ul>
+          <li><a href="#">CLOSED!</a></li>
+        </ul>
+      </ul>
+    </nav>
+</body>
+</html>
